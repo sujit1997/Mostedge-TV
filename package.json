@@ -1,0 +1,24 @@
+{
+  "name": "mostedge-tv-automation",
+  "version": "0.1.0",
+  "description": "Automation project for MostedgeTV (Android TV) using TypeScript and WebdriverIO",
+  "private": true,
+  "scripts": {
+    "test": "wdio run ./wdio.conf.ts",
+    "wdio": "wdio run ./wdio.conf.ts",
+    "wdio:open": "wdio wdio.conf.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.19.0",
+    "@wdio/local-runner": "^8.19.0",
+    "@wdio/mocha-framework": "^8.19.0",
+    "@wdio/spec-reporter": "^8.19.0",
+    "@wdio/appium-service": "^8.19.0",
+    "webdriverio": "^8.19.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.0"
+  }
+}

@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Mostedge-TV
-=======
+
 # MostedgeTV Automation (TypeScript + WebdriverIO)
 
 This repository contains a basic scaffold for Android TV automation using WebdriverIO and TypeScript.
@@ -29,4 +28,3 @@ This repository contains a basic scaffold for Android TV automation using Webdri
 Notes:
 - This is a starting scaffold. Update selectors, capabilities, and tests to reflect the real app.
 - Consider using secure storage for credentials and CI integration for automated runs.
->>>>>>> 3e25179 (new framework)
